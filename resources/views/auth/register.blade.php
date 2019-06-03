@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('body-class', 'signup-page')
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -73,5 +75,6 @@
             </div>
         </div>
     </div>
+    @include('includes.footer')
 </div>
 @endsection
